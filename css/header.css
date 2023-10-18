@@ -1,0 +1,69 @@
+.header {
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-columns: 250px auto auto 300px;
+    grid-template-rows: minmax(90px, auto);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__button {
+    width: 45px;
+    height: 25px;
+    background: url('../img/burger.png');
+    border: none;
+}
+
+.address {
+    margin-left: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.address::before{
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url('../img/placeholder\ 1.png') left center no-repeat;
+    position: absolute;
+    content: '';
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    /* transform: translateX(-50%); */
+}
+
+.schedule {
+    position: relative;
+}
+
+.schedule::before {
+    position: absolute;
+    display: block;
+    content:'';
+    width: 28px;
+    height: 28px;
+    background: url(../img/clock\ 1.png);
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.phonenumber {
+    position: relative;
+    justify-self: end;
+}
+
+.phonenumber::before {
+    position: absolute;
+    display: block;
+    content:'';
+    width: 34px;
+    height: 34px;
+    background: url(../img/phone-call\ \(1\).png);
+    left: -38%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}

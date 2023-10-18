@@ -1,0 +1,99 @@
+.main__section {
+    display: grid;
+    grid-template-columns: minmax(auto,417px) minmax(auto,743px);
+    grid-template-rows: 417px ;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    padding: 112px 20px 93px 20px;
+    background: url('../img/bg_header-xl.png') no-repeat;
+    z-index: 0;
+    column-gap: 0;
+
+}
+
+.main__section::before{
+    position: absolute;
+    background: rgba(24, 24, 24, 0.80);
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    z-index: 1;
+}
+
+.main__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    justify-self: center;
+    background: rgba(0, 0, 0, 0.60);
+    z-index: 2;
+ }
+ 
+.main__title {
+    padding-left: 125px;
+    align-items: center;
+    z-index: 2;
+    background: rgba(16, 16, 16, 0.60);
+}
+
+.p__logo {
+    margin-top: 20px;
+    color: #EFEEEE;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.p__consult {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #FCDB50;
+    width: 242px;
+    height: 41px;
+    flex-shrink: 0;
+    padding: 12px 16px;
+    box-sizing: border-box;
+}
+
+.p__title {
+    color: #FCDB50;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+    text-transform: uppercase;
+}
+
+.p__subtitle {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 149.2%; /* 38.792px */
+    text-transform: uppercase;
+}
+
+.p__subadress {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 149.2%; /* 38.792px */
+}
+
+.awards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(48, 47, 45, 0.40) 100%), #181818;
+}
