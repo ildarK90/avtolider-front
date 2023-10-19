@@ -94,6 +94,133 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 300px;
+    align-items: center;
+    height: 230px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(48, 47, 45, 0.40) 100%), #181818;
+}
+
+.award {
+    color: #FFF;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column ;
+    flex-basis: 13%;
+    text-align: center;
+    height: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 122.2%; /* 21.996px */
+    text-transform: uppercase;
+}
+
+.award:nth-child(2) {
+    flex-basis: 15%;
+}
+
+.award img {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
+
+.award p {
+    margin-top: 15px;
+    align-self: center;
+}
+
+.forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 836px;
+    background: linear-gradient(180deg, rgba(48, 47, 45, 0.40) 0%, rgba(77, 61, 37, 0.00) 100%), #4D3D25;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*background: #FFF;*/
+    width: 886px;
+}
+
+.forms input {
+    margin-top: 30px;
+    flex-basis: 58px;
+    color: #848484;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.forms input:nth-child(3) {
+    flex-basis: 200px ;
+}
+
+.forms input:nth-child(1) {
+    margin-top: 40px;
+}
+
+.forms button {
+    margin-top: 35px;
+    flex-basis: 65px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #302F2D;
+}
+
+.forms__title {
+    flex-basis: 50px;
+    margin-top: 70px;
+    color: #FCDB50;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.forms__subtitle {
+    margin-top: 10px;
+    flex-basis: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.yellow_line {
+    width: 160px;
+    height: 4px;
+    background: #FCDB50;
+}
+
+.p__underform {
+
+    color: #A0A0A0;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 25px;
 }

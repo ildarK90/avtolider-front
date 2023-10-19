@@ -1,0 +1,42 @@
+.aboutus {
+    display: grid;
+    display-grid-areas:
+        'title-about title-about title-about'
+        'subtitle subtitle subtitle'
+        'image-about about about';
+    justify-content: center;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(48, 47, 45, 0.40) 100%), #181818;
+}
+
+.forms__subtitle {
+    grid-area: subtitle;
+}
+
+.forms__title {
+    grid-area: title-about;
+}
+
+.shop__photo {
+    grid-area: image-about;
+}
+.p__about {
+    grid-area: about;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.7%; /* 26.586px */
+    font-variant: small-caps;
+}
+
+.ul__about {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.7%; /* 26.586px */
+    font-variant: small-caps;
+}
